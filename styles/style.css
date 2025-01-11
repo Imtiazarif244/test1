@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
@@ -151,19 +152,36 @@
     padding: 11px 20px;
     border-radius: 8px;
 }
+.dedication-btn-1st:hover{
+    background-color: lightcoral;
+}
 .dedication-btn-2nd{
     color: white;
     background-color: #09A15C;
     padding: 11px 20px;
     border-radius: 8px;
 }
+.dedication-btn-2nd:hover{
+    background-color: lightcoral;}
+
+ 
 .dedication-btn-3rd{
     color: white;
     background-color: #FFC239;
     padding: 11px 20px;
     border-radius: 8px;
 }
+.dedication-btn-3rd:hover{
+    background-color: lightcoral; }  
 
+.btn-satellite-section{
+    background-color: #006A50;
+    color: white;
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight:18px ;
+    border: none;
+}  
 
 /* bannar container work */
 
@@ -214,6 +232,7 @@
 .vision-eye-title{
    margin: 80px 160px 32px 160px;
    /* border: 1px solid black; */
+  
     
 }
 .dedication{
@@ -226,6 +245,7 @@
     /* border: 1px solid black; */
     border: none;
     gap: 24px;
+    background-color: whitesmoke;
 }
 .html-box-1{
     height: 325px;
@@ -294,4 +314,53 @@
 
 .quote-bg{
     margin-top: 0px;
+}
+
+
+/* newsportal section */
+
+.newsportal{
+    /* background-color: #F1F1F3; */
+}
+.news-title{
+    font-size: 40px;
+}
+.news-description{
+    font-size: 16px;
+    color: gray;
+}
+
+.news{
+    margin: 24px 160px 80px 160px;
+    
+      
+}
+.news{
+    /* border: 1px solid black;
+ */
+ 
+}
+.satellite-section{
+    margin: 32px 160px 24px 160px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 24px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    align-content: center;
+}
+.satellite-img{
+    padding: 48px 32px 48px 48px;
+
+}
+.new-satellite-news{
+    padding: 20px 48px 56px 32px;
+}
+.date-time{
+    color: gray;
+  
+}
+.motivation{
+    color: gray;
 }
