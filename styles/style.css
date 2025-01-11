@@ -151,6 +151,7 @@
     background-color: #5490F5;
     padding: 11px 20px;
     border-radius: 8px;
+    border: none;
 }
 .dedication-btn-1st:hover{
     background-color: lightcoral;
@@ -160,6 +161,7 @@
     background-color: #09A15C;
     padding: 11px 20px;
     border-radius: 8px;
+    border: none;
 }
 .dedication-btn-2nd:hover{
     background-color: lightcoral;}
@@ -170,6 +172,7 @@
     background-color: #FFC239;
     padding: 11px 20px;
     border-radius: 8px;
+    border: none;
 }
 .dedication-btn-3rd:hover{
     background-color: lightcoral; }  
@@ -186,16 +189,16 @@
     background-color: lightcoral;
 }
 .box-1:hover{
-    background-color: lightcoral;
+    background-color: #C6E4D6;
 }
 .box-2:hover{
-    background-color: lightcoral;
+    background-color: #C6E4D6;
 }
 .box-3:hover{
-    background-color: lightcoral;
+    background-color: #C6E4D6;
 }
 .box-4:hover{
-    background-color: lightcoral;
+    background-color: #C6E4D6;
 }
 .donate-button{
     align-items: center;
@@ -331,6 +334,9 @@
 
 .assure-list {
     color: gray;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
     
     
 
@@ -417,9 +423,9 @@
 .box-1{
     padding: 40px 40px;
     /* border: 1px solid black; */
-    background-color: gainsboro;
+    background-color: white;
     border-radius: 16px;
-    color: lightseagreen;
+    color: black;
     
     
    
@@ -427,27 +433,27 @@
 .box-2{
     padding: 40px 40px;
     /* border: 1px solid black; */
-    background-color: gainsboro;
+    background-color: white;
     border-radius: 16px;
-    color: lightseagreen;
+    color: black;
     
     
 }
 .box-3{
     padding: 40px 40px;
     /* border: 1px solid black; */
-    background-color:gainsboro;
+    background-color:white;
     border-radius: 16px;
-    color: lightseagreen;
+    color: black;
     
     
 }
 .box-4{
     padding: 40px 40px;
     /* border: 1px solid black; */
-    background-color: gainsboro;
+    background-color: white;
     border-radius: 16px;
-    color: lightseagreen;
+    color: black;
     
 }
 
@@ -481,6 +487,7 @@
 }
  h1{
     padding-top: 10px;
+    
  }
 .subscribe-form{
     display: flex;
