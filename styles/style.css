@@ -185,16 +185,16 @@
 .btn-satellite-section:hover{
     background-color: lightcoral;
 }
-.donate-box-1:hover{
+.box-1:hover{
     background-color: lightcoral;
 }
-.donate-box-2:hover{
+.box-2:hover{
     background-color: lightcoral;
 }
-.donate-box-3:hover{
+.box-3:hover{
     background-color: lightcoral;
 }
-.donate-box-4:hover{
+.box-4:hover{
     background-color: lightcoral;
 }
 .donate-button{
@@ -317,7 +317,7 @@
 /* assure section */
 .assure-section{
     /* padding: 32px 160px 80px 160px; */
-    margin: 32px 150px 80px 160px;;
+    margin: 32px 150px 80px 160px;
     /* border: 1px solid black; */
     background-color: #F1F1F3;
     /* background-image: url(../assets/quote-bg.png); */
@@ -328,6 +328,7 @@
     
 
 }
+
 .assure-list {
     color: gray;
     
@@ -340,9 +341,6 @@
 
 }
 
-.quote-bg{
-    margin-top: 0px;
-}
 
 
 /* newsportal section */
@@ -402,9 +400,57 @@
 }
 .aim-of-doante{
     margin: 80px 160px 32px 160px;
+    
     /* border: 1px solid black; */
     text-align: center;
 }
+
+.donate-tk{
+    margin: 80px 160px 32px 160px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    background-color:whitesmoke;
+    border-radius: 16px;
+    
+}
+.box-1{
+    padding: 40px 40px;
+    /* border: 1px solid black; */
+    background-color: gainsboro;
+    border-radius: 16px;
+    color: lightseagreen;
+    
+    
+   
+}
+.box-2{
+    padding: 40px 40px;
+    /* border: 1px solid black; */
+    background-color: gainsboro;
+    border-radius: 16px;
+    color: lightseagreen;
+    
+    
+}
+.box-3{
+    padding: 40px 40px;
+    /* border: 1px solid black; */
+    background-color:gainsboro;
+    border-radius: 16px;
+    color: lightseagreen;
+    
+    
+}
+.box-4{
+    padding: 40px 40px;
+    /* border: 1px solid black; */
+    background-color: gainsboro;
+    border-radius: 16px;
+    color: lightseagreen;
+    
+}
+
 .donate-money{
     margin: 32px 104px 32px 104px;
     display: flex;
@@ -415,44 +461,16 @@
     border-radius: 16px;
     
 }
-.donate-box-1{
-    padding: 40px 40px;
-    border: 1px solid rebeccapurple;
-    gap: 24px;
-    background-color: lightsalmon;
-    border-radius: 16px;
-}
-.donate-box-2{
-    padding: 40px 40px;
-    border: 1px solid rebeccapurple;
-    gap: 24px;
-    background-color: #C6E4D6;
-    border-radius: 16px;
 
-}
-.donate-box-3{
-    padding: 40px 40px;
-    border: 1px solid rebeccapurple;
-    gap: 24px;
-    background-color: yellow;
-    border-radius: 16px;
-}
-.donate-box-4{
-    padding: 40px 40px;
-    border: 1px solid rebeccapurple;
-    gap: 24px;
-    background-color:palegreen;
-    border-radius: 16px;
-}
-    
-.other-amount{
-    margin: 32px 124px 88px 124px ;
+.other-amount-money{
+    margin: 0px auto ;
     width: 1032px;
     height: 64px;
     border: 1px white solid;
     text-align: center;
     background-color: #F1F1F3;
-    /* border-radius: 16px; */
+    border-radius: 16px;
+    color: gray;
 }
 .subscribe-section{
     margin: 80px 160px 80px 160px;
@@ -473,6 +491,7 @@
 }
 p{
     margin-bottom: 20px;
+    color: gray;
 }
 .subscribe-button{
     border: none;
@@ -480,7 +499,8 @@ p{
     height: 50px;
     background-color: #006A50;
     border-top-right-radius: 17px;
-    border-bottom-right-radius: 17px
+    border-bottom-right-radius: 17px;
+    color: white;
     
 }
 .subscribe-button:hover{
